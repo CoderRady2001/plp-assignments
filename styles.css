@@ -70,14 +70,15 @@ img{
     gap: 30px;
     border: 2px solid #84c6f1;
     border-radius: 20px;
+    background-color: #84c6f1;
 }
 
 footer li a{
+    text-align: center;
+    font-family: sans-serif;
+    display: block;
     
-    display: flex;
-    color: #333;
-    padding: 10px;
-    margin: 10px;
+    
 }
 
 footer p{
@@ -85,11 +86,20 @@ footer p{
 }
 
 footer ul{
-    list-style-type: square;
+    list-style-type: none;
     text-align: right;
     
 }
 
 footer{
     padding: 10px;
+    display: flex;
+    color: #333;
+    padding: 10px;
+    margin: 10px;
+}
+
+hr{
+    margin: 20px;
+    color: aqua;
 }
